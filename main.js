@@ -37,7 +37,6 @@ const searchCep = async () => {
   } else if (validCep(cep)) {
     const data = await fetch(url)
     const fullAddress = await data.json()
-    console.log(fullAddress);
     fullAddress.hasOwnProperty("erro") ? warning("Cep não encontrado!", 1) : fillForm(fullAddress)
   }else{
     warning("ERRO! Cep inválido.", 1)
