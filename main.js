@@ -30,7 +30,7 @@ const searchCep = async () => {
   warning("none", 0)
 
   const cep = fieldCep.value.replace("-", "")
-  const url = `http://viacep.com.br/ws/${cep}/json/`
+  const url = `https://viacep.com.br/ws/${cep}/json/`
 
   if (cep == "") {
     warning('Preencha o campo!', 1)
