@@ -6,7 +6,7 @@ Projeto criado com Javascript puro, que faz uma requisição para a API da <a hr
 
 <img src="presentation.png">
  
-<a href="https://iammatheus.github.io/busca-cep">Visualizar<a/>
+<a href="https://iammatheus.github.io/busca-cep">Visualizar projeto<a/>
  
 ### Desenvolvimento
  - HTML
